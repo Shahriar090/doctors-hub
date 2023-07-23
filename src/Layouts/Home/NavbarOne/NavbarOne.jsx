@@ -6,7 +6,8 @@ const NavbarOne = () => {
   
   return (
     <div>
-      <div className="navbar light shadow-xl">
+      <div className="navbar light shadow-xl rounded-xl">
+       
         <div className="navbar-start">
           <div className="dropdown">
             <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -46,10 +47,15 @@ const NavbarOne = () => {
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1"><NavOptions></NavOptions></ul>
+          
         </div>
+        
+       
         <div className="navbar-end">
           <a className="btn">Button</a>
         </div>
+       
+        
       </div>
     </div>
   );
