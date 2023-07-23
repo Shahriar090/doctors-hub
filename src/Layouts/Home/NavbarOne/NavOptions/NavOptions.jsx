@@ -11,6 +11,7 @@ import { FaRegClock, FaMobileAlt, FaMapMarkerAlt  } from 'react-icons/fa';
         <div className="time">
             <h1>Monday - Friday 8:00 am - 11:00 pm</h1>
             <p>Saturday and Sunday closed</p>
+            <p>Saturday and Sunday closed</p>
         </div>
       </div>
 
