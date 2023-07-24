@@ -3,7 +3,7 @@ import React from "react";
 const TeamBanner = () => {
   return (
     <div>
-      <div className="hero min-h-screen bg-light">
+      <div className="hero min-h-screen bg-light ">
         <div className="hero-content flex-col lg:flex-row-reverse">
           <img
             src="	https://medicare.bold-themes.com/clinic/wp-content/uploads/sites/2/2015/12/doktorka.png"

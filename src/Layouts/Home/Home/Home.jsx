@@ -1,8 +1,10 @@
 import React from 'react';
-import Slider from './Slider/Slider';
+import Slider from '../Slider/Slider';
 import About from '../About/About';
 import Category from '../Category/Category';
-import TeamBanner from './TeamBanner/TeamBanner';
+import TeamBanner from '../TeamBanner/TeamBanner';
+import TeamCards from '../TeamCards/TeamCards';
+import LatestNews from '../LatestNews/LatestNews';
 
 const Home = () => {
     return (
@@ -11,6 +13,8 @@ const Home = () => {
             <About></About>
             <Category></Category>
             <TeamBanner></TeamBanner>
+            <TeamCards></TeamCards>
+            <LatestNews></LatestNews>
         </div>
     );
 };
