@@ -1,5 +1,6 @@
 import React from "react";
 import { FaHospitalUser, FaMobileAlt } from "react-icons/fa";
+// import doctorsImg from '../../../../assets/doctors.webp'
 
 const Slider = () => {
   return (
