@@ -16,17 +16,17 @@ const About = () => {
         {/* card 02 */}
       <div className="card w-full lg:w-80 bg-cyan-600 text-white overflow-hidden transform transition-transform duration-300 hover:scale-110">
         <div className="card-body text-center">
-          <h2 className="card-title mx-auto">Professional Staff</h2>
+          <h2 className="card-title mx-auto">Affordable Prices</h2>
           <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi numquam nemo reiciendis est consequuntur fugiat, a doloribus nobis saepe debitis!</p>
           <div className="card-actions justify-center">
-            <button className="btn btn-outline text-white">Read More</button>
+            <button className="btn btn-outline text-white">View PriceList</button>
           </div>
         </div>
       </div>
         {/* card 03 */}
       <div className="card w-full lg:w-80 bg-cyan-500 text-white overflow-hidden transform transition-transform duration-300 hover:scale-110">
         <div className="card-body text-center">
-          <h2 className="card-title mx-auto">Professional Staff</h2>
+          <h2 className="card-title mx-auto">Insurance partners</h2>
           <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi numquam nemo reiciendis est consequuntur fugiat, a doloribus nobis saepe debitis!</p>
           <div className="card-actions justify-center">
             <button className="btn btn-outline text-white">Read More</button>
@@ -36,10 +36,10 @@ const About = () => {
         {/* card 04 */}
       <div className="card w-full lg:w-80 bg-cyan-600 text-white overflow-hidden transform transition-transform duration-300 hover:scale-110">
         <div className="card-body text-center">
-          <h2 className="card-title mx-auto">Professional Staff</h2>
+          <h2 className="card-title mx-auto">Consult our doctors</h2>
           <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi numquam nemo reiciendis est consequuntur fugiat, a doloribus nobis saepe debitis!</p>
           <div className="card-actions justify-center">
-            <button className="btn btn-outline text-white">Read More</button>
+            <button className="btn btn-outline text-white">Choose A Doctor</button>
           </div>
         </div>
       </div>
