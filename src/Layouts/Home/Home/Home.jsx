@@ -6,6 +6,9 @@ import TeamBanner from '../TeamBanner/TeamBanner';
 import TeamCards from '../TeamCards/TeamCards';
 import LatestNews from '../LatestNews/LatestNews';
 import Testimonials from '../Testimonials/Testimonials';
+import Location from '../Location/Location';
+import Footer from '../Footer/Footer';
+
 
 const Home = () => {
     return (
@@ -17,6 +20,9 @@ const Home = () => {
             <TeamCards></TeamCards>
             <LatestNews></LatestNews>
             <Testimonials></Testimonials>
+            <Location></Location>
+            <Footer></Footer>
+        
         </div>
     );
 };

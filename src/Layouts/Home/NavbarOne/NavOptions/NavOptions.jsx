@@ -2,7 +2,7 @@ import React from "react";
 import { FaRegClock, FaMobileAlt, FaMapMarkerAlt } from "react-icons/fa";
 const NavOptions = () => {
   return (
-    <div className="flex flex-col lg:flex-row cursor-pointer gap-6 text-xl font-semibold text-orange-600">
+    <div className="flex flex-col lg:flex-row cursor-pointer gap-6 text-xl font-semibold text-cyan-600">
       <li>Home</li>
       <li>About Us</li>
       <li>Pages</li>

@@ -6,7 +6,7 @@ const NavbarOne = () => {
   
   return (
     <div>
-      <div className="navbar bg-white shadow-xl  rounded-xl">
+      <div className="navbar bg-white lg:bg-gradient-to-l from-slate-50 to-slate-300 lg:opacity-70 p-6 lg:p-12 lg:fixed lg:z-30 rounded-xl">
        
         <div className="navbar-start">
           <div className="dropdown">
@@ -52,7 +52,7 @@ const NavbarOne = () => {
         
        
         <div className="navbar-end">
-          <a className="btn">Button</a>
+          <a className="btn btn-outline bg-cyan-500 text-white hover:bg-cyan-400">Login</a>
         </div>
        
         

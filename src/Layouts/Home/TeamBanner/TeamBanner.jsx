@@ -1,15 +1,22 @@
-import React from "react";
-
+import React, { useEffect } from "react";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+AOS.init();
 const TeamBanner = () => {
+
+  useEffect(() => {
+    AOS.init(); 
+  }, []);
+
   return (
     <div>
       <div className="hero min-h-screen bg-light ">
         <div className="hero-content flex-col lg:flex-row-reverse">
           <img
             src="	https://medicare.bold-themes.com/clinic/wp-content/uploads/sites/2/2015/12/doktorka.png"
-            className="max-w-sm lg:max-w-full"
+            className="max-w-sm lg:max-w-full" data-aos="fade-left"
           />
-          <div className="m-0 lg:m-20"> 
+          <div className="m-0 lg:m-20" data-aos="fade-right"> 
             <h3 className="text-2xl font-bold">Dr. Stephanie Wosniack</h3>
             <span className="divider w-28 "></span>
             <h1 className="text-5xl font-bold ">Our <span className="text-cyan-500">Team</span></h1>

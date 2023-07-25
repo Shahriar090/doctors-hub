@@ -1,12 +1,17 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { FaTeeth, FaRegHeart, FaHospitalUser } from "react-icons/fa";
 import WorkingHour from "./WorkingHour/WorkingHour";
-
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+AOS.init();
 const Category = () => {
+  useEffect(() => {
+    AOS.init(); // Reinitialize AOS on component mount
+  }, []);
   return (
-    <div className="flex flex-col lg:flex-row justify-between lg:px-32 mt-10">
+    <div className="flex flex-col lg:flex-row justify-between  lg:px-32 mt-10">
       {/* card 01 */}
-      <div className="cards w-3/4">
+      <div className="cards lg:w-3/4" data-aos="zoom-in-up">
         <div className="card w-80 h-full bg-base-100 shadow-xl">
           <figure>
             <img
@@ -35,7 +40,7 @@ const Category = () => {
         </div>
       </div>
       {/* card 02 */}
-      <div className="cards w-3/4">
+      <div className="cards w-3/4"data-aos="flip-down">
         <div className="card w-80 h-full bg-base-100 shadow-xl">
           <figure>
             <img
@@ -61,7 +66,7 @@ const Category = () => {
         </div>
       </div>
       {/* card 03 */}
-      <div className="cards w-3/4">
+      <div className="cards w-3/4"data-aos="zoom-in-up">
         <div className="card w-80 h-full bg-base-100 shadow-xl">
           <figure>
             <img

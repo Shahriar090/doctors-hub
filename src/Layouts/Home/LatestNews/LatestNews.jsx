@@ -14,7 +14,7 @@ const LatestNews = () => {
         </p>
       </div>
 
-      <div className="grid grid-cols-3 gap-2 p-10 ml-16">
+      <div className="grid grid-cols-1 lg:grid-cols-3 gap-2 p-10 ml-16">
         {/* card 01 */}
         <div className="card w-96 bg-base-100 shadow-xl">
           <figure>
