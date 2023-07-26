@@ -8,8 +8,11 @@ const Testimonials = () => {
         AOS.init(); // Reinitialize AOS on component mount
       }, []);
     return (
-        <div className='flex max-w-screen-xl mx-auto bg-gradient-to-r from-slate-400 to-slate-50 p-8'>
-            <div className="testimonials w-3/5" data-aos="fade-left">
+        <div className='flex w-full  bg-fixed bg-gradient-to-r from-slate-400 to-slate-50 p-10'style={{
+            backgroundImage:
+              "url(https://media.istockphoto.com/id/1406489021/photo/abstract-blurred-modern-interior-domestic-office-light-of-background-for-design-banner-and.webp?b=1&s=170667a&w=0&k=20&c=_1Ju5IuytdTxhpqA387EnryhekVsi2PYMdLxfLH6ksk=)",
+          }}>
+            <div className="testimonials w-3/5 " data-aos="fade-right">
                 <h1 className='text-3xl font-bold text-white' data-aos="fade-up">PATIENT TESTIMONIALS</h1>
                 <span className='divider w-2/5'></span>
                 <p>It’s always the word of mouth that’s the best advice. Here are some of our…</p>
@@ -43,8 +46,8 @@ const Testimonials = () => {
                 
             </div>
 
-            <div className="kids-thought w-2/5 bg-gradient-to-r from-cyan-600 to-cyan-400 p-6 ml-10 text-white" data-aos="fade-right">
-            <h1 className='text-3xl font-bold' data-aos="fade-up">A KID’S THOUGHT</h1>
+            <div className="kids-thought w-full bg-gradient-to-r from-cyan-600 to-cyan-400 p-10 ml-10 text-white" data-aos="fade-left">
+            <h1 className='text-3xl font-bold'>A KID’S THOUGHT</h1>
                 <span className='divider w-2/5'></span>
                 <p>What do our smallest patient say?</p>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci ut commodi reprehenderit nisi nesciunt? Recusandae quo nobis maiores, doloribus voluptates a veritatis autem dolore aspernatur vel inventore mollitia perspiciatis, labore quidem quia numquam! Laboriosam vitae quam, suscipit error dolor quas cum repudiandae atque, quae asperiores, libero voluptatibus.</p>

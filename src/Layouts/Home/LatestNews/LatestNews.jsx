@@ -3,7 +3,7 @@ import { FaClock, FaPlus } from "react-icons/fa";
 
 const LatestNews = () => {
   return (
-    <div>
+    <div className="p-20">
       <div className="text-center mt-14 mb-10">
         <h1 className="text-3xl uppercase font-bold">Latest News</h1>
         <span className="divider w-1/2 mx-auto"></span>
@@ -14,7 +14,7 @@ const LatestNews = () => {
         </p>
       </div>
 
-      <div className="grid grid-cols-1 lg:grid-cols-3 gap-2 p-10 ml-16">
+      <div className="grid grid-cols-1 lg:grid-cols-3 gap-2">
         {/* card 01 */}
         <div className="card w-96 bg-base-100 shadow-xl">
           <figure>

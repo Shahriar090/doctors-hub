@@ -2,7 +2,7 @@ import React from 'react';
 
 const WorkingHour = () => {
     return (
-        <div className="working-hour w-2/4   bg-gradient-to-r from-cyan-500 to-cyan-700 text-white rounded-lg">
+        <div className="working-hour w-[250px] h-2/4 overflow-y-auto  bg-gradient-to-r from-cyan-500 to-cyan-700 text-white rounded-lg">
         <h1 className="text-2xl text-center m-2 font-bold">Working Hours</h1>
         <p className="text-center text-sm">
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat.

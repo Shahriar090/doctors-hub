@@ -11,8 +11,8 @@ const Category = () => {
   return (
     <div className="flex flex-col lg:flex-row justify-between  lg:px-32 mt-10">
       {/* card 01 */}
-      <div className="cards lg:w-3/4" data-aos="zoom-in-up">
-        <div className="card w-80 h-full bg-base-100 shadow-xl">
+      <div className="cards lg:w-3/4" data-aos="flip-up">
+        <div className="card w-80 h-2/3 bg-base-100 shadow-xl">
           <figure>
             <img
               src="https://media.istockphoto.com/id/1343302637/photo/happy-female-assistant-dentist-examining-little-boy-teeth-at-the-clinic.webp?b=1&s=170667a&w=0&k=20&c=-4GyDUt68l2RrsUTKJSzQM4bP6boCIn57fDY7ZtGWhI="
@@ -40,8 +40,8 @@ const Category = () => {
         </div>
       </div>
       {/* card 02 */}
-      <div className="cards w-3/4"data-aos="flip-down">
-        <div className="card w-80 h-full bg-base-100 shadow-xl">
+      <div className="cards w-3/4"data-aos="flip-up">
+        <div className="card w-80 h-2/3  bg-base-100 shadow-xl">
           <figure>
             <img
               src="https://media.istockphoto.com/id/610227072/photo/stethoscope-with-red-heart-on-a-wood-background.webp?b=1&s=170667a&w=0&k=20&c=KUFFNlF0uxSEGAUmGSGYYusVKVtg1CWixI6a6ySmqGA="
@@ -66,8 +66,8 @@ const Category = () => {
         </div>
       </div>
       {/* card 03 */}
-      <div className="cards w-3/4"data-aos="zoom-in-up">
-        <div className="card w-80 h-full bg-base-100 shadow-xl">
+      <div className="cards w-3/4"data-aos="flip-up">
+        <div className="card w-80 h-2/3 bg-base-100 shadow-xl">
           <figure>
             <img
               src="https://media.istockphoto.com/id/1447803707/photo/physiotherapy-neck-pain-and-stretching-with-woman-and-doctor-for-healthcare-chiropractic-or.webp?b=1&s=170667a&w=0&k=20&c=x_EhQEYYp_oPmfSyUDjh909fhbgOoVgsjNe4u7rGMho="
@@ -91,7 +91,9 @@ const Category = () => {
           </p>
         </div>
       </div>
-      <WorkingHour></WorkingHour>
+    <div>
+    <WorkingHour></WorkingHour>
+    </div>
     </div>
   );
 };

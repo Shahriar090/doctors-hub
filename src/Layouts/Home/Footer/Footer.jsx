@@ -3,9 +3,9 @@ import React from "react";
 const Footer = () => {
   return (
     <div>
-      <footer className="footer p-10 bg-gradient-to-tr from-cyan-600 to-cyan-300 text-neutral-content rounded-md ">
+      <footer className="footer p-10 bg-gradient-to-tr from-black to-transparent text-neutral-content rounded-md ">
         <div>
-          <span className="footer-title">Services</span>
+          <span className="footer-title text-white">Services</span>
           <a className="link link-hover">Branding</a>
           <a className="link link-hover">Design</a>
           <a className="link link-hover">Marketing</a>

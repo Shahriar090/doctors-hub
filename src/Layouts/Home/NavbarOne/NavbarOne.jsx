@@ -6,7 +6,7 @@ import {FaArrowCircleDown } from 'react-icons/fa';
 const NavbarOne = () => {
   return (
     <div>
-      <div className="navbar bg-white lg:bg-gradient-to-l from-slate-50 to-slate-300 lg:opacity-70 p-6 lg:p-12 lg:fixed lg:z-30 rounded-xl">
+      <div className="max-w-screen-xl mx-auto navbar bg-white  lg:opacity-70 p-6 lg:p-12 lg:fixed lg:z-30 rounded-xl">
         <div className="navbar-start">
           <div className="dropdown">
             <label tabIndex={0} className="btn btn-ghost lg:hidden">

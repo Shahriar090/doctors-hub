@@ -4,7 +4,7 @@ import { FaHospitalUser, FaMobileAlt } from "react-icons/fa";
 
 const Slider = () => {
   return (
-    <div className="carousel w-full">
+    <div className="carousel w-full ">
       <div id="slide1" className="carousel-item relative w-full">
         <img
           src="https://media.istockphoto.com/id/513438487/photo/doctors-and-nurses-smiling-in-hospital-hallway.jpg?s=612x612&w=0&k=20&c=Gqv61wGBPSBWciA2x6MdcEcHtGe3VxZG7-62bopf63E="

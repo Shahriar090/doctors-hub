@@ -1,13 +1,14 @@
 import React from "react";
 import { FaRegClock, FaMobileAlt, FaMapMarkerAlt } from "react-icons/fa";
+import { Link } from "react-router-dom";
 const NavOptions = () => {
   return (
     <div className="flex flex-col lg:flex-row cursor-pointer gap-6 text-xl font-semibold text-cyan-600">
-      <li>Home</li>
-      <li>About Us</li>
-      <li>Pages</li>
-      <li>Blog/News</li>
-      <li>Shop</li>
+      <li><Link to='/'>Home</Link></li>
+      <li><Link>About Us</Link></li>
+      <li><Link>Pages</Link></li>
+      <li><Link>Blog/News</Link></li>
+      <li><Link>Shop</Link></li>
      
       {/* <div className="flex gap-2 ml-10">
         <div className="icon text-orange-500">

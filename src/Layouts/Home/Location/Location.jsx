@@ -5,7 +5,7 @@ const Location = () => {
     <>
     <h1 className="text-3xl font-bold uppercase text-center text-cyan-400 m-5">Find Us On Google Map</h1>
     <span className="divider w-1/2 mx-auto"></span>
-    <div className="max-w-screen-xl mx-auto m-3">
+    <div className="w-full m-3">
       <div
         className="hero h-[500px]"
         style={{

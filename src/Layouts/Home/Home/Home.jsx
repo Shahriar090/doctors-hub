@@ -8,12 +8,14 @@ import LatestNews from '../LatestNews/LatestNews';
 import Testimonials from '../Testimonials/Testimonials';
 import Location from '../Location/Location';
 import Footer from '../Footer/Footer';
+import Banner from '../Banner/Banner';
 
 
 const Home = () => {
     return (
         <div>
-            <Slider></Slider>
+            <Banner></Banner>
+            {/* <Slider></Slider> */}
             <About></About>
             <Category></Category>
             <TeamBanner></TeamBanner>
