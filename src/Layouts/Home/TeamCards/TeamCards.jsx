@@ -10,9 +10,9 @@ const TeamCards = () => {
     AOS.init();
   }, []);
   return (
-    <div className="grid grid-cols-1 lg:grid-cols-4 gap-1 ml-10 mt-6">
+    <div className="grid grid-cols-1 lg:grid-cols-4 gap-3 mt-6 p-6 lg:p-0">
       {/* card 01 */}
-      <div className="card w-80 bg-base-100 shadow-xl overflow-hidden transform transition-transform duration-300 hover:scale-110" data-aos="fade-up-right">
+      <div className="card w-full lg:w-80 bg-base-100 shadow-xl overflow-hidden transform transition-transform duration-300 hover:scale-110" data-aos="fade-up-right">
         <figure>
           <img
             src="https://media.istockphoto.com/id/1436148451/photo/smiling-female-doctor-with-digital-tablet-standing-at-isolated-grey-background.webp?b=1&s=170667a&w=0&k=20&c=4Hau31tIdo2MGlWZ0p-CXU9VGsUu1W8SLdQ6SE773Gk="
@@ -42,7 +42,7 @@ const TeamCards = () => {
         </div>
       </div>
       {/* card 02 */}
-      <div className="card w-80 bg-base-100 shadow-xl overflow-hidden transform transition-transform duration-300 hover:scale-110" data-aos="flip-up">
+      <div className="card w-full lg:w-80 bg-base-100 shadow-xl overflow-hidden transform transition-transform duration-300 hover:scale-110" data-aos="flip-up">
         <figure>
           <img
             src="https://media.istockphoto.com/id/1421939647/photo/female-doctor-smiles-for-hospital-publicity-photo.jpg?s=612x612&w=0&k=20&c=FAINAUMboxBM_0dUd64s-8_57M8a5GxZQ3vj9sWtI5Y="
@@ -72,7 +72,7 @@ const TeamCards = () => {
         </div>
       </div>
       {/* card 03 */}
-      <div className="card w-80 bg-base-100 shadow-xl overflow-hidden transform transition-transform duration-300 hover:scale-110" data-aos="flip-up">
+      <div className="card w-full lg:w-80 bg-base-100 shadow-xl overflow-hidden transform transition-transform duration-300 hover:scale-110" data-aos="flip-up">
         <figure>
           <img
             src="https://media.istockphoto.com/id/1390000431/photo/shot-of-a-mature-doctor-using-a-digital-tablet-in-a-modern-hospital.jpg?s=612x612&w=0&k=20&c=ofnikeDwvLhhEvLpSuQME5kWclGchqUKSHQFdQ4mcWo="
@@ -102,7 +102,7 @@ const TeamCards = () => {
         </div>
       </div>
       {/* card 04 */}
-      <div className="card w-80 bg-base-100 shadow-xl overflow-hidden transform transition-transform duration-300 hover:scale-110" data-aos="fade-up-left">
+      <div className="card w-full lg:w-80 bg-base-100 shadow-xl overflow-hidden transform transition-transform duration-300 hover:scale-110" data-aos="fade-up-left">
         <figure>
           <img
             src="https://media.istockphoto.com/id/1416945607/photo/portrait-of-a-doctors-intern-in-the-university-building.jpg?s=612x612&w=0&k=20&c=EJd8PElKT_x8AFKQFtE5NguFiPuOJe1-VO_rIGgxnl0="

@@ -2,12 +2,12 @@ import React from "react";
 
 const Location = () => {
   return (
-    <>
-    <h1 className="text-3xl font-bold uppercase text-center text-cyan-400 m-5">Find Us On Google Map</h1>
+    <div className="border-0 m-0 lg:border-4 border-cyan-500 lg:m-8 lg:p-8">
+    <h1 className="text-2xl lg:text-5xl font-bold uppercase text-center text-black m-8 lg:m-10">Find Us On Google Map</h1>
     <span className="divider w-1/2 mx-auto"></span>
     <div className="w-full m-3">
       <div
-        className="hero h-[500px]"
+        className="hero h-96 w-full lg:w-2/3 lg:mx-auto"
         style={{
           backgroundImage:
             "url(https://media.istockphoto.com/id/912922882/vector/vector-city-map-of-hong-kong-with-well-organized-separated-layers.jpg?s=612x612&w=0&k=20&c=aGfHaoxlL5XUqm52hesXu75feyPvB9C1v9AxSkqpKFo=)",
@@ -26,7 +26,7 @@ const Location = () => {
           </div>
         </div> */}
       </div>
-    </div></>
+    </div></div>
   );
 };
 
