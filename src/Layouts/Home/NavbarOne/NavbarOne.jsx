@@ -1,16 +1,21 @@
-import React from "react";
+import React, { useState } from "react";
 
 import NavOptions from "./NavOptions/NavOptions";
 import { Link } from "react-router-dom";
-import {FaArrowCircleDown } from 'react-icons/fa';
+import {FaArrowCircleDown, FaTimesCircle } from 'react-icons/fa';
 const NavbarOne = () => {
+  const [isDropdownOpen, setIsDropdropdonOpen] = useState(false);
+
+  const toggleDropdown = ()=>{
+    setIsDropdropdonOpen(prevState => !prevState);
+  }
   return (
     <div>
       <div className="max-w-screen-xl mx-auto navbar bg-white  lg:opacity-70 p-6 lg:p-12 lg:fixed lg:z-30 rounded-xl">
         <div className="navbar-start">
           <div className="dropdown">
-            <label tabIndex={0} className="btn btn-ghost lg:hidden">
-              <svg
+            <label tabIndex={0} className="btn btn-ghost lg:hidden" onClick={toggleDropdown}>
+              {isDropdownOpen?(<FaTimesCircle className="h-5 w-5 text-red-500"></FaTimesCircle>):(<svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-5 w-5"
                 fill="none"
@@ -23,16 +28,18 @@ const NavbarOne = () => {
                   strokeWidth="2"
                   d="M4 6h16M4 12h8m-8 6h16"
                 />
-              </svg>
+              </svg>)}
+              
             </label>
-            <ul
+            {isDropdownOpen && ( <ul
               tabIndex={0}
               className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-96"
             >
               <div className="flex flex-col">
                 <NavOptions></NavOptions>
               </div>
-            </ul>
+            </ul>)}
+           
           </div>
           <div>
             <div>
