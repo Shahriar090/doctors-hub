@@ -9,10 +9,10 @@ const Category = () => {
     AOS.init(); // Reinitialize AOS on component mount
   }, []);
   return (
-    <div className="flex flex-col lg:flex-row justify-between  lg:px-32 mt-10">
+    <div className="flex flex-col lg:flex-row mt-6  lg:mt-10 ">
       {/* card 01 */}
-      <div className="cards lg:w-3/4" data-aos="flip-up">
-        <div className="card w-80 h-2/3 bg-base-100 shadow-xl">
+      <div className="cards p-6 lg:p-0" data-aos="flip-up">
+        <div className="card w-full lg:w-80 h-2/3 lg:h-[600px] bg-base-100 shadow-xl">
           <figure>
             <img
               src="https://media.istockphoto.com/id/1343302637/photo/happy-female-assistant-dentist-examining-little-boy-teeth-at-the-clinic.webp?b=1&s=170667a&w=0&k=20&c=-4GyDUt68l2RrsUTKJSzQM4bP6boCIn57fDY7ZtGWhI="
@@ -21,17 +21,17 @@ const Category = () => {
           </figure>
 
           <div className="mx-auto">
-            <h1 className="text-5xl  text-pink-400 -mt-6 bg-white border-4 rounded-full border-white">
+            <h1 className="text-3xl lg:text-5xl  text-pink-400 -mt-3 lg:-mt-6 bg-white border-4 rounded-full border-white">
               <FaTeeth></FaTeeth>
             </h1>
           </div>
-          <h1 className="text-center uppercase text-3xl m-3 font-bold">
+          <h1 className="text-center uppercase text-2xl lg:text-3xl m-3 font-bold">
             Dentist
           </h1>
-          <p className="text-xl text-center m-3">
+          <p className="text-lg lg:text-xl text-center m-3">
             For your child whitest teeths
           </p>
-          <p className="p-5 text-center">
+          <p className="p-2 lg:p-5 text-center">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis
             natus voluptatibus quia commodi necessitatibus ad ex inventore quis,
             dolor provident similique magni cum deserunt blanditiis optio
@@ -40,8 +40,8 @@ const Category = () => {
         </div>
       </div>
       {/* card 02 */}
-      <div className="cards w-3/4"data-aos="flip-up">
-        <div className="card w-80 h-2/3  bg-base-100 shadow-xl">
+      <div className="cards p-6 lg:p-0"data-aos="flip-up">
+        <div className="card w-full lg:w-80 h-2/3 lg:h-[600px]  bg-base-100 shadow-xl">
           <figure>
             <img
               src="https://media.istockphoto.com/id/610227072/photo/stethoscope-with-red-heart-on-a-wood-background.webp?b=1&s=170667a&w=0&k=20&c=KUFFNlF0uxSEGAUmGSGYYusVKVtg1CWixI6a6ySmqGA="
@@ -49,15 +49,15 @@ const Category = () => {
             />
           </figure>
           <div className="mx-auto">
-            <h1 className="text-5xl  text-pink-400 -mt-6 bg-white border-4 rounded-full border-white">
+            <h1 className="text-3xl lg:text-5xl  text-pink-400 -mt-3 lg:-mt-6 bg-white border-4 rounded-full border-white">
               <FaRegHeart></FaRegHeart>
             </h1>
           </div>
-          <h1 className="text-center uppercase text-3xl m-3 font-bold">
+          <h1 className="text-center uppercase text-2xl lg:text-3xl m-3 font-bold">
             Cardiologist
           </h1>
-          <p className="text-xl text-center m-3">Got a broken heart?</p>
-          <p className="p-5 text-center">
+          <p className="text-lg lg:text-xl text-center m-3">Got a broken heart?</p>
+          <p className="p-2 lg:p-5 text-center">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis
             natus voluptatibus quia commodi necessitatibus ad ex inventore quis,
             dolor provident similique magni cum deserunt blanditiis optio
@@ -66,8 +66,8 @@ const Category = () => {
         </div>
       </div>
       {/* card 03 */}
-      <div className="cards w-3/4"data-aos="flip-up">
-        <div className="card w-80 h-2/3 bg-base-100 shadow-xl">
+      <div className="cards p-6 lg:p-0"data-aos="flip-up">
+        <div className="card w-full  lg:w-80 h-2/3 lg:h-[600px] bg-base-100 shadow-xl">
           <figure>
             <img
               src="https://media.istockphoto.com/id/1447803707/photo/physiotherapy-neck-pain-and-stretching-with-woman-and-doctor-for-healthcare-chiropractic-or.webp?b=1&s=170667a&w=0&k=20&c=x_EhQEYYp_oPmfSyUDjh909fhbgOoVgsjNe4u7rGMho="
@@ -75,15 +75,15 @@ const Category = () => {
             />
           </figure>
           <div className="mx-auto">
-            <h1 className="text-5xl  text-pink-400 -mt-6 bg-white border-4 rounded-full border-white">
+            <h1 className="text-3xl lg:text-5xl  text-pink-400 -mt-3 lg:-mt-6 bg-white border-4 rounded-full border-white">
               <FaHospitalUser></FaHospitalUser>
             </h1>
           </div>
-          <h1 className="text-center uppercase text-3xl m-3 font-bold">
+          <h1 className="text-center uppercase text-2xl lg:text-3xl m-3 font-bold">
             Chiropractor
           </h1>
-          <p className="text-xl text-center m-3">Neck or back pain?</p>
-          <p className="p-5 text-center">
+          <p className="text-lg lg:text-xl text-center m-3">Neck or back pain?</p>
+          <p className="p-2 lg:p-5 text-center">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis
             natus voluptatibus quia commodi necessitatibus ad ex inventore quis,
             dolor provident similique magni cum deserunt blanditiis optio

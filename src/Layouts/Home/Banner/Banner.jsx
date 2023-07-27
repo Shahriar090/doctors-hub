@@ -14,11 +14,11 @@ const Banner = () => {
         <div className="absolute inset-0 bg-black opacity-60"></div>
         <div className="hero-content text-center text-neutral-content">
           <div className="max-w-md">
-            <h1 className="mb-5 text-5xl font-bold uppercase inline-grid">Welcome To <span className="text-green-600">Green </span>View Hospital</h1>
-            <p className="mb-5">
+            <h1 className="mb-5 text-3xl  lg:text-5xl font-bold uppercase inline-grid">Welcome To <span className="text-green-600">Green </span>View Hospital</h1>
+            <p className="mb-5 text-sm lg:text-xl">
             Providing compassionate healthcare services since 1985. Our dedicated team of medical professionals is committed to delivering the highest quality patient care and promoting wellness within the community.
             </p>
-            <button className="btn btn-outline text-white border-green-600">Learn More</button>
+            <button className="btn btn-outline btn-sm lg:btn-md  text-white border-green-600">Learn More</button>
           </div>
         </div>
       </div>

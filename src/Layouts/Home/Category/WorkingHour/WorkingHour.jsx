@@ -2,9 +2,10 @@ import React from 'react';
 
 const WorkingHour = () => {
     return (
-        <div className="working-hour w-[250px] h-2/4 overflow-y-auto  bg-gradient-to-r from-cyan-500 to-cyan-700 text-white rounded-lg">
+        <div className=" working-hour w-80 mx-auto lg:mx-0 lg:w-full lg:h-full overflow-y-auto  bg-gradient-to-r from-cyan-500 to-cyan-700 text-white rounded-lg">
         <h1 className="text-2xl text-center m-2 font-bold">Working Hours</h1>
-        <p className="text-center text-sm">
+        
+        <p className="text-center text-sm p-3 lg:p-0">
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat.
         </p>
 

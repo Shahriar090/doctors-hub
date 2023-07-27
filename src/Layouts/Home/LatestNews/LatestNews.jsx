@@ -1,7 +1,13 @@
 import React from "react";
 import { FaClock, FaPlus } from "react-icons/fa";
-
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
+AOS.init();
 const LatestNews = () => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <div className="p-20">
       <div className="text-center mt-14 mb-10">
@@ -16,7 +22,7 @@ const LatestNews = () => {
 
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-2">
         {/* card 01 */}
-        <div className="card w-96 bg-base-100 shadow-xl">
+        <div className="card w-96 bg-base-100 shadow-xl"data-aos="fade-down-right">
           <figure>
             <img
               src="https://media.istockphoto.com/id/891577642/photo/female-doctor-holding-a-stetoschope-in-her-hands.jpg?s=612x612&w=0&k=20&c=WfNhLjKBP3OTNefnEJeDVzdzaVpSUNlxsgoXH3hLLro="
@@ -53,7 +59,7 @@ const LatestNews = () => {
           </div>
         </div>
         {/* card 02 */}
-        <div className="card w-96 bg-base-100 shadow-xl">
+        <div className="card w-96 bg-base-100 shadow-xl"data-aos="flip-up">
           <figure>
             <img
               src="https://media.istockphoto.com/id/1370358685/photo/multicolored-pills-scattered-from-white-plastic-medicine-container.jpg?s=612x612&w=0&k=20&c=zknrVfCELovlvvXKrAlWKLnFLfkMQF8nh9k2d97pJkE="
@@ -75,9 +81,7 @@ const LatestNews = () => {
           </div>
 
           <div className="heading ml-6 mt-5">
-            <h1 className="text-2xl font-bold">
-            Are drugs the best solution?
-            </h1>
+            <h1 className="text-2xl font-bold">Are drugs the best solution?</h1>
           </div>
           <div className=" p-6">
             <p>
@@ -90,11 +94,12 @@ const LatestNews = () => {
           </div>
         </div>
         {/* card 03 */}
-        <div className="card w-96 bg-base-100 shadow-xl">
+        <div className="card w-96 bg-base-100 shadow-xl"data-aos="fade-down-left">
           <figure>
             <img
               src="https://media.istockphoto.com/id/617382548/photo/business-woman-touching-the-pulse-screen.webp?b=1&s=170667a&w=0&k=20&c=OH12AI0ZWrNJeCRPIYpaMuBmnpsUlUh5VSR23zZrHas="
-              alt="Doc img" className="h-[280px]"
+              alt="Doc img"
+              className="h-[280px]"
             />
           </figure>
           <div className=" bg-cyan-500 h-[40px] w-[40px] rounded-full ml-3">
@@ -113,7 +118,7 @@ const LatestNews = () => {
 
           <div className="heading ml-6 mt-5">
             <h1 className="text-2xl font-bold">
-            Negative statin stories add to heart health risk
+              Negative statin stories add to heart health risk
             </h1>
           </div>
           <div className=" p-6">
